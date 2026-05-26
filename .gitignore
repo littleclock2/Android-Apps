@@ -1,0 +1,75 @@
+# ============================================
+# 嵌入式开发通用 .gitignore 模板
+# ============================================
+
+# ----- 编译产物 -----
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.axf
+*.dep
+*.d
+*.crf
+*.htm
+*.lnp
+*.sct
+*.iex
+*.tra
+*.build_log.htm
+
+# ----- Keil MDK -----
+*.uvguix.*
+*.uvoptx
+*.bak
+*.uvprojx
+Listings/
+Objects/
+DebugConfig/
+Event/
+
+# ----- STM32CubeIDE / IAR -----
+.metadata/
+Debug/
+Release/
+.settings/
+.project
+.cproject
+
+# ----- VS Code -----
+.vscode/
+
+# ----- Android / Gradle -----
+.gradle/
+build/
+local.properties
+*.apk
+*.ap_
+*.dex
+app/build/
+
+# ----- Quartus -----
+incremental_db/
+db/
+output_files/
+*.qws
+*.sld
+*.done
+*.pin
+*.summary
+*.rpt
+
+# ----- 系统文件 -----
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.lnk
+
+# ----- 临时文件 -----
+*.tmp
+*.log
+*.bak
+*~
